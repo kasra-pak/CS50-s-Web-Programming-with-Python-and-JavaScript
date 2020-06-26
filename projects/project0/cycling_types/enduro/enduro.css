@@ -1,0 +1,32 @@
+@media (max-width: 766px) {
+  div.head_background {
+    width: 100%;
+    height: 600px;
+    background: url(../../pics/cycling_types/enduro_cycling_small.jpg) no-repeat center top;
+    background-size: cover;
+  }
+}
+@media (min-width: 767px) {
+  div.head_background {
+    width: 100%;
+    height: 600px;
+    background: url(../../pics/cycling_types/enduro_cycling.jpg) no-repeat center top;
+    background-size: cover, contain;
+  }
+}
+div.transbox {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+div.transbox h1 {
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+/*# sourceMappingURL=enduro.css.map */
