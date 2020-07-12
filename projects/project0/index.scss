@@ -1,9 +1,33 @@
-
 h1, h2 {
     text-align: center;
 }
 
-a {
+.nav_bar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0px;
+}
+
+.nav_bar a {
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.nav_bar a:hover:not(.active) {
+    background-color: rgba(235, 64, 52, 0.6);
+}
+
+.active {
+    color: white !important;
+    background-color: rgba(235, 64, 52);
+}
+
+div:not(.nav_bar) a {
     color: black;
     border: 5px solid;
     border-color: rgba(235, 64, 52, 0.2);
@@ -18,7 +42,7 @@ a > p {
     padding: 10px;
 }
 
-a:hover {
+div:not(.nav_bar) a:hover {
     background-color: rgba(235, 64, 52, 0.2) !important;
     text-decoration: none;
     border: none;
